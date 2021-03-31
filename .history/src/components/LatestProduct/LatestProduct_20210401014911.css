@@ -1,0 +1,57 @@
+.music {
+  background-image: url("../../tshirt-shop/images/music-min.jpg");
+}
+.latest-product {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+  position: relative;
+  overflow: hidden;
+}
+.gaming {
+  background-image: url("../../tshirt-shop//images/gaming-min.jpg");
+}
+.football {
+  background-image: url("../../tshirt-shop/images/football-min.jpg");
+}
+.science {
+  background-image: url("../../tshirt-shop/images/science-min.jpg");
+}
+.supperHero {
+  background-image: url("../../tshirt-shop/images/superhero-min.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 330px;
+}
+.shows {
+  background-image: url("../../tshirt-shop/images/tv-min.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 330px;
+}
+
+.img-link {
+  top: 0;
+  left: 0;
+  display: block;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: #00000061;
+}
+.image-title {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  transform: translateY(-50%);
+}
+.image-title h1 {
+  padding: 10px;
+  color: white;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-family: "Fjalla One", sans-serif;
+  text-shadow: 3px 3px #272525;
+}

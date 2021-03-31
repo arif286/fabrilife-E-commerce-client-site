@@ -1,0 +1,26 @@
+.music {
+  background-image: url("../../tshirt-shop/images/music-min.jpg");
+}
+.latest-product {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+}
+.gaming {
+  background-image: url("../../tshirt-shop//images/gaming-min.jpg");
+}
+.football {
+  background-image: url("../../tshirt-shop/images/football-min.jpg");
+}
+.science {
+  background-image: url("../../tshirt-shop/images/science-min.jpg");
+}
+.supperHero {
+  background-image: url("../../tshirt-shop/images/superhero-min.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+.shows {
+  background-image: url("../../tshirt-shop/images/tv-min.jpg");
+}
