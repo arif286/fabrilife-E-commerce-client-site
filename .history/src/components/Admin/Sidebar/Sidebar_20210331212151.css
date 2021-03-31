@@ -1,0 +1,14 @@
+.sidebar {
+  max-width: 240px;
+  height: 100vh;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.manage-link {
+  text-decoration: none;
+  color: white;
+}
+
+.manage-item {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,29 @@
+.bgImage {
+  background-image: linear-gradient(#000000b3, #000000b3),
+    url("../../tshirt-shop/images/websiteheader2.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 450px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-bar h1 {
+  color: white;
+  text-transform: uppercase;
+}
+.search-bar input {
+  min-width: 400px;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  border: 1px solid #999999;
+  outline: none;
+  margin-right: 20px;
+}
+.search-bar {
+  text-align: center;
+}

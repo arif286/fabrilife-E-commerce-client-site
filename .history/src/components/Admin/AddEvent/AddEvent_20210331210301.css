@@ -1,0 +1,45 @@
+.event-input {
+  min-width: 450px;
+  margin: auto;
+}
+.event-input input {
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  border: 1px solid #999999;
+}
+
+.event-input label {
+  line-height: 2;
+  text-align: left;
+  display: block;
+  margin-bottom: 13px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+#submit-btn [type="submit"],
+#submit-btn[type="submit"] {
+  background: #ec5990;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 40px;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 10px;
+  min-width: 450px;
+  justify-content: center;
+  margin: auto;
+  border-radius: 5px;
+}
+
+#submit-btn[type="submit"]:hover,
+#submit-btn[type="submit"]:hover {
+  background: #bf1650;
+}
