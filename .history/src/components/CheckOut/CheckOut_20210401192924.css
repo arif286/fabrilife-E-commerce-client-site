@@ -1,0 +1,53 @@
+.delivery-form input {
+  width: 100%;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  border: 1px solid #909090;
+  outline: none;
+  border-radius: 4px;
+}
+.delivery-form input:first-child {
+  margin-top: 25px;
+}
+
+.delivery-form p {
+  color: #bf1650;
+  margin-bottom: 20px;
+}
+
+.delivery-form p::before {
+  display: inline;
+  content: "⚠ ";
+}
+
+button[type="submit"],
+.delivery-form input[type="submit"] {
+  background: #81d4fa;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 20px;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 10px;
+}
+
+button[type="submit"]:hover,
+.delivery-form input[type="submit"]:hover {
+  background: #4fc3f7;
+}
+.delivery-form textarea {
+  width: 100%;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  border: 1px solid #909090;
+  outline: none;
+  border-radius: 4px;
+}
+
+.total span {
+  float: right;
+}
