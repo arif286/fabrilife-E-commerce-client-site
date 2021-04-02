@@ -64,13 +64,13 @@ const CheckOut = () => {
     <div
       style={{
         backgroundColor: "#899af8a8",
-        paddingTop: "13px",
+        marginTop: "13px",
         height: "100vh",
       }}
     >
       <Container>
         {!placeOrder && (
-          <Grid container spacing={3}>
+          <Grid direction="row" container spacing={3}>
             <Grid item sm={12} md={6}>
               <form className="delivery-form" onSubmit={handleSubmit(onSubmit)}>
                 <h3>Customer information</h3>
@@ -137,7 +137,7 @@ const CheckOut = () => {
                 <input type="submit" value="Place order" />
               </form>
             </Grid>
-            <Grid direction="column" container item sm={12} md={6}>
+            <Grid direction="column" item sm={12} md={6}>
               <Card className={classes.root}>
                 <div>
                   <img style={{ width: "150px" }} src={image} alt="" />

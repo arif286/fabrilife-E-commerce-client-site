@@ -14,6 +14,7 @@ const useStyles = makeStyles({
 });
 
 const OrderCard = (props) => {
+    console.log(props)
     const {image, name, totalPrice, date, address, phone} = props.product
     const classes = useStyles();
     return (

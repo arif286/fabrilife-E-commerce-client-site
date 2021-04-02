@@ -8,7 +8,7 @@ import "./AddEvent.css";
 const AddEvent = () => {
   const [updateProduct, setUpdateProduct] = useState(false);
   const [imageURL, setImageURL] = useState(null);
-  const { register, handleSubmit } = useForm();
+  const { register, handleSubmit, errors } = useForm();
 
   const onSubmit = async (data, e) => {
     e.target.reset();

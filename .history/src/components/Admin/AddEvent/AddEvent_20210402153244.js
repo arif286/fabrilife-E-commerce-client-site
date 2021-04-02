@@ -8,7 +8,7 @@ import "./AddEvent.css";
 const AddEvent = () => {
   const [updateProduct, setUpdateProduct] = useState(false);
   const [imageURL, setImageURL] = useState(null);
-  const { register, handleSubmit } = useForm();
+  const { register, handleSubmit, errors } = useForm();
 
   const onSubmit = async (data, e) => {
     e.target.reset();
@@ -51,7 +51,7 @@ const AddEvent = () => {
     }
   };
   return (
-    <Container style={{ marginTop: "30px" }}>
+    <Container style={{ marginTop: "15px" }}>
       <Grid container justify="center" spacing={4}>
         <Grid item xs={8}>
           {updateProduct && (

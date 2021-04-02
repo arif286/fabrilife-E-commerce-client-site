@@ -14,6 +14,7 @@ const Order = () => {
         `https://lychee-custard-24286.herokuapp.com/orderDetail?email=${loggedInUser.email}`
       )
       .then((res) => {
+        console.log(res.data);
         setOrderDetail(res.data);
       })
       .catch((err) => console.log(err));

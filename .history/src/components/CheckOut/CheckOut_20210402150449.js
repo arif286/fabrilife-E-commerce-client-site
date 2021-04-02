@@ -22,7 +22,7 @@ const useStyles = makeStyles({
   alert: {
 
     width: '100%',
-    marginTop: '30px'
+    paddingTop: '30px'
   }
 });
 

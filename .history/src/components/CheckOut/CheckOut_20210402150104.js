@@ -64,7 +64,7 @@ const CheckOut = () => {
     <div
       style={{
         backgroundColor: "#899af8a8",
-        paddingTop: "13px",
+        marginTop: "13px",
         height: "100vh",
       }}
     >

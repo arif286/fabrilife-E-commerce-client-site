@@ -14,6 +14,7 @@ const useStyles = makeStyles({
 });
 
 const OrderCard = (props) => {
+    console.log(props)
     const {image, name, totalPrice, date, address, phone} = props.product
     const classes = useStyles();
     return (
@@ -63,8 +64,7 @@ const OrderCard = (props) => {
               >
                 Contact: {phone}
               </Typography>
-              <Typography variant="h5"
-                component="p">
+              <Typography variant="h5"  component="p">
                 Order Pending...
               </Typography>
             </CardContent>
