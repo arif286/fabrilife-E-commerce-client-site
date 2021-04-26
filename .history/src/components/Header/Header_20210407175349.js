@@ -166,7 +166,7 @@ export default function Header() {
 
   return (
     <>
-      <AppBar style={{position:'sticky'}} className={header}>
+      <AppBar className={header}>
         {mobileView ? displayMobile() : displayDesktop()}
       </AppBar>
     </>

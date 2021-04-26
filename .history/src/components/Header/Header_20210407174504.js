@@ -1,4 +1,59 @@
-
+// import AppBar from "@material-ui/core/AppBar";
+// import Button from "@material-ui/core/Button";
+// import { makeStyles } from "@material-ui/core/styles";
+// import Toolbar from "@material-ui/core/Toolbar";
+// import Typography from "@material-ui/core/Typography";
+// import React from "react";
+// import { NavLink } from "react-router-dom";
+// import "./Header.css";
+// const useStyles = makeStyles((theme) => ({
+//   root: {
+//     flexGrow: 1,
+//   },
+//   menuButton: {
+//     marginRight: theme.spacing(2),
+//   },
+//   title: {
+//     flexGrow: 1,
+//   },
+//   navbar: {
+//     backgroundColor: "#5c6bc0",
+//   },
+//   button: {
+//     backgroundColor: "#81d4fa",
+//     marginRight: "6px",
+//   },
+// }));
+// const Header = () => {
+//   const classes = useStyles();
+//   return (
+//     <div className={classes.root}>
+//       <AppBar className={classes.navbar} position="static">
+//         <Toolbar>
+//           <img
+//             style={{ width: "80px", marginLeft: "30px" }}
+//             src={logo}
+//             alt=""
+//           />
+//           <Typography variant="h6" className={classes.title}></Typography>
+//           <NavLink className="header-link" to="/home">
+//             <Button className={classes.button}>Home</Button>
+//           </NavLink>
+//           <NavLink className="header-link" to="/order">
+//             <Button className={classes.button}>Order</Button>
+//           </NavLink>
+//           <NavLink className="header-link" to="/admin">
+//             <Button className={classes.button}>Admin</Button>
+//           </NavLink>
+//           <NavLink className="header-link" to="/login">
+//             <Button className={classes.button}>Login</Button>
+//           </NavLink>
+//         </Toolbar>
+//       </AppBar>
+//     </div>
+//   );
+// };
+// export default Header;
 import {
   AppBar,
   Button,
@@ -13,7 +68,6 @@ import MenuIcon from "@material-ui/icons/Menu";
 import React, { useEffect, useState } from "react";
 import { Link as RouterLink } from "react-router-dom";
 import logo from "../../tshirt-shop/logos/fabrilife.svg";
-import './Header.css';
 
 const headersData = [
   {
@@ -165,10 +219,10 @@ export default function Header() {
   };
 
   return (
-    <>
-      <AppBar style={{position:'sticky'}} className={header}>
+    <header>
+      <AppBar className={header}>
         {mobileView ? displayMobile() : displayDesktop()}
       </AppBar>
-    </>
+    </header>
   );
 }

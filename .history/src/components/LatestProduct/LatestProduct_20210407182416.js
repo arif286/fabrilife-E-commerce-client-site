@@ -10,7 +10,7 @@ const LatestProduct = () => {
           Trendy Tees that you just can't miss !
         </h2>
         <Grid container spacing={3}>
-          <Grid item sm={5} xs={12}>
+          <Grid item md={5} xs={12}>
             <div className="music latest-product">
               <NavLink className="img-link" to="/">
                 <div className="image-title">
@@ -40,7 +40,7 @@ const LatestProduct = () => {
               </NavLink>
             </div>
           </Grid>
-          <Grid item xs={12} sm={7}>
+          <Grid item xs={12} md={7}>
             <div className="supperHero latest-product">
               <NavLink className="img-link" to="/">
                 <div className="image-title">

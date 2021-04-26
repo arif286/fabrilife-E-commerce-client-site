@@ -41,6 +41,7 @@ const useStyles = makeStyles(() => ({
     paddingLeft: "118px",
     "@media (max-width: 900px)": {
       paddingLeft: 0,
+      position: 'sticky',
     },
   },
   menuButton: {

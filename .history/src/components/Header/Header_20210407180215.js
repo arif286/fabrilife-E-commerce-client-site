@@ -41,6 +41,7 @@ const useStyles = makeStyles(() => ({
     paddingLeft: "118px",
     "@media (max-width: 900px)": {
       paddingLeft: 0,
+      position: 'sticky',
     },
   },
   menuButton: {
@@ -166,7 +167,7 @@ export default function Header() {
 
   return (
     <>
-      <AppBar style={{position:'sticky'}} className={header}>
+      <AppBar  className={header}>
         {mobileView ? displayMobile() : displayDesktop()}
       </AppBar>
     </>

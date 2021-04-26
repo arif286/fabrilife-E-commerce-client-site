@@ -1,3 +1,64 @@
+// import AppBar from "@material-ui/core/AppBar";
+// import Button from "@material-ui/core/Button";
+// import { makeStyles } from "@material-ui/core/styles";
+// import Toolbar from "@material-ui/core/Toolbar";
+// import Typography from "@material-ui/core/Typography";
+// import React from "react";
+// import { NavLink } from "react-router-dom";
+
+// import "./Header.css";
+
+// const useStyles = makeStyles((theme) => ({
+//   root: {
+//     flexGrow: 1,
+//   },
+//   menuButton: {
+//     marginRight: theme.spacing(2),
+//   },
+//   title: {
+//     flexGrow: 1,
+//   },
+//   navbar: {
+//     backgroundColor: "#5c6bc0",
+//   },
+//   button: {
+//     backgroundColor: "#81d4fa",
+//     marginRight: "6px",
+//   },
+// }));
+
+// const Header = () => {
+//   const classes = useStyles();
+
+//   return (
+//     <div className={classes.root}>
+//       <AppBar className={classes.navbar} position="static">
+//         <Toolbar>
+//           <img
+//             style={{ width: "80px", marginLeft: "30px" }}
+//             src={logo}
+//             alt=""
+//           />
+//           <Typography variant="h6" className={classes.title}></Typography>
+//           <NavLink className="header-link" to="/home">
+//             <Button className={classes.button}>Home</Button>
+//           </NavLink>
+//           <NavLink className="header-link" to="/order">
+//             <Button className={classes.button}>Order</Button>
+//           </NavLink>
+//           <NavLink className="header-link" to="/admin">
+//             <Button className={classes.button}>Admin</Button>
+//           </NavLink>
+//           <NavLink className="header-link" to="/login">
+//             <Button className={classes.button}>Login</Button>
+//           </NavLink>
+//         </Toolbar>
+//       </AppBar>
+//     </div>
+//   );
+// };
+
+// export default Header;
 
 import {
   AppBar,
@@ -12,9 +73,7 @@ import {
 import MenuIcon from "@material-ui/icons/Menu";
 import React, { useEffect, useState } from "react";
 import { Link as RouterLink } from "react-router-dom";
-import logo from "../../tshirt-shop/logos/fabrilife.svg";
-import './Header.css';
-
+import headerLogo from "../../tshirt-shop/logos/fabrilife.svg";
 const headersData = [
   {
     label: "Home",
@@ -36,12 +95,18 @@ const headersData = [
 
 const useStyles = makeStyles(() => ({
   header: {
-    backgroundColor: "#5c6bc0",
+    backgroundColor: "#400CCC",
     paddingRight: "79px",
     paddingLeft: "118px",
     "@media (max-width: 900px)": {
       paddingLeft: 0,
     },
+  },
+  logo: {
+    fontFamily: "Work Sans, sans-serif",
+    fontWeight: 600,
+    color: "#FFFEFE",
+    textAlign: "left",
   },
   menuButton: {
     fontFamily: "Open Sans, sans-serif",
@@ -59,7 +124,7 @@ const useStyles = makeStyles(() => ({
 }));
 
 export default function Header() {
-  const { header, menuButton, toolbar, drawerContainer } = useStyles();
+  const { header, logo, menuButton, toolbar, drawerContainer } = useStyles();
 
   const [state, setState] = useState({
     mobileView: false,
@@ -142,9 +207,11 @@ export default function Header() {
     });
   };
 
-  const headerLogo = (
-    <img style={{ width: "80px" }} src={logo} alt="" />
-  );
+  // const femmecubatorLogo = (
+  //   <Typography variant="h6" component="h1" className={logo}>
+  //     Femmecubator
+  //   </Typography>
+  // );
 
   const getMenuButtons = () => {
     return headersData.map(({ label, href }) => {
@@ -165,10 +232,10 @@ export default function Header() {
   };
 
   return (
-    <>
-      <AppBar style={{position:'sticky'}} className={header}>
+    <header>
+      <AppBar className={header}>
         {mobileView ? displayMobile() : displayDesktop()}
       </AppBar>
-    </>
+    </header>
   );
 }

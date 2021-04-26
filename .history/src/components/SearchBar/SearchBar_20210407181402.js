@@ -10,7 +10,7 @@ const SearchBar = () => {
         <div className="search-bar">
           <input placeholder="Search house..." type="text" />
           <Button className="search-btn" color="secondary" variant="contained">
-            Search
+            Find Now
           </Button>
         </div>
       </div>

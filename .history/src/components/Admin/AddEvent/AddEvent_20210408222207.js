@@ -11,6 +11,7 @@ const AddEvent = () => {
   const { register, handleSubmit } = useForm();
 
   const onSubmit = async (data, e) => {
+    e.target.reset();
 
     const eventData = {
       name: data.name,
