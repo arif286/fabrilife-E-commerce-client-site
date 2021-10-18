@@ -2,8 +2,8 @@
 
 <br />
 
-I am [Nurul Alam](https://pogrammer-arif.web.app/), a dedicated Full Stack web developer. And also a leaner in [Programming Hero](https://www.programming-hero.com/)
-.I am built a [Fabrilife E-commerce](https://fabri-life.web.app) E-commerce Web site. It is a shopping site. Where people can buy cloths.
+I am [Nurul Alam](https://pogrammer-arif.web.app/), a dedicated Full Stack JavaScript developer. And also a leaner.
+.I built a [Fabrilife E-commerce](https://fabri-life.web.app) E-commerce Web site. It is a online shopping site. Where people can buy their cloths.
 
 ### About projects and features
 
@@ -31,6 +31,7 @@ I am [Nurul Alam](https://pogrammer-arif.web.app/), a dedicated Full Stack web d
 **React form hock**,
 **React bootstrap**,
 **bootstrap**,
+**Material Ui**
 
  <img align="right" alt="GIF" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="500" height="320" />
 

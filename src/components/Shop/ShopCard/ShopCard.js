@@ -8,6 +8,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
 import React from "react";
 import { useHistory } from "react-router";
+import defaultImage from "../../../assets/images/pic1.png";
 import "./ShopCard.css";
 
 const useStyles = makeStyles({
@@ -35,7 +36,7 @@ const ShopCard = (props) => {
           component="img"
           alt="Contemplative Reptile"
           width="100%"
-          image={image}
+          image={image || defaultImage}
           title="Contemplative Reptile"
         />
         <CardContent>
