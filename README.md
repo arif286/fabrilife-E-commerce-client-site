@@ -2,7 +2,7 @@
 
 <br />
 
-I am [Nurul Alam](https://pogrammer-arif.web.app/), a passionate Full Stack web developer. And also a leaner in [Programming Hero](https://www.programming-hero.com/)
+I am [Nurul Alam](https://pogrammer-arif.web.app/), a dedicated Full Stack web developer. And also a leaner in [Programming Hero](https://www.programming-hero.com/)
 .I am built a [Fabrilife E-commerce](https://fabri-life.web.app) E-commerce Web site. It is a shopping site. Where people can buy cloths.
 
 ### About projects and features

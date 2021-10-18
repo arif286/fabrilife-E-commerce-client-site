@@ -2,7 +2,7 @@ import React, { useContext, useRef, useState } from "react";
 import { useForm } from "react-hook-form";
 import { useHistory, useLocation } from "react-router-dom";
 import { UserContext } from "../../App";
-import Google from "../../tshirt-shop/logos/Group 573.png";
+import Google from "../../assets/logos/Group 573.png";
 import {
   createUserWithEmailAndPassword,
   handleGoogleSingIn,

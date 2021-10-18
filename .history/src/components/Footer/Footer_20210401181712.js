@@ -1,10 +1,10 @@
 import { Grid } from "@material-ui/core";
 import React from "react";
 import { NavLink } from "react-router-dom";
-import Instagram from '../../tshirt-shop/logos/Vector-1.png';
-import Linkedin from '../../tshirt-shop/logos/Vector-2.png';
-import YouTube from '../../tshirt-shop/logos/Vector-3.png';
-import Facebook from '../../tshirt-shop/logos/Vector.png';
+import Instagram from '../../assets/logos/Vector-1.png';
+import Linkedin from '../../assets/logos/Vector-2.png';
+import YouTube from '../../assets/logos/Vector-3.png';
+import Facebook from '../../assets/logos/Vector.png';
 
 const Footer = () => {
   const company = [

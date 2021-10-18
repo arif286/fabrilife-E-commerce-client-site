@@ -5,7 +5,7 @@
 // import Typography from "@material-ui/core/Typography";
 // import React from "react";
 // import { NavLink } from "react-router-dom";
-// import logo from "../../tshirt-shop/logos/fabrilife.svg";
+// import logo from "../../assets/logos/fabrilife.svg";
 // import "./Header.css";
 
 // const useStyles = makeStyles((theme) => ({

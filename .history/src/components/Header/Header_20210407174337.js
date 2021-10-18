@@ -67,7 +67,7 @@ import {
 import MenuIcon from "@material-ui/icons/Menu";
 import React, { useEffect, useState } from "react";
 import { Link as RouterLink } from "react-router-dom";
-import logo from "../../tshirt-shop/logos/fabrilife.svg";
+import logo from "../../assets/logos/fabrilife.svg";
 
 const headersData = [
   {
